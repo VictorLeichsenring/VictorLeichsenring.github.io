@@ -6,43 +6,133 @@
     <meta name="viewport" content="width=
     , initial-scale=1.0">
     <title>Meu Portfólio</title>
+    <style>
+      html {
+        background-color: rgb(0, 0, 0);
+        color: white;
+        text-align: center;
+        font-family: sans-serif;
+      }
+
+      .saudacao{
+        text-align: left;
+        font-size: 30px;
+        height: 8px;
+      }
+      .nome {
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+        text-align: left;
+        font-size: 50px;
+        height: 30px;
+        color: rgb(125, 46, 178);
+      }
+      .subtitulo {
+        text-align: left;
+        height: 100px;
+      }
+      .indice {
+        list-style: none;
+        text-align: left;
+
+      }
+      .subtitulo{
+        text-align: left;
+        color: rgb(125, 46, 178);
+        height: 40px;
+        font-size: 2em;
+      }
+      .habilidades {
+        text-align: left;
+      }
+      p {
+        text-align: left;
+      }
+
+      .localidade {
+        color: rgb(209, 96, 20);
+      }
+
+      .protecaoDeDados {
+        color: rgb(209, 96, 20);
+        font-weight: bold;
+        font-size: 20px;
+
+      }
+      .negociacao {
+        font-size: 18px;
+      }
+      .gestaoDeConflitos {
+        font-size: 18px;
+      }
+      .inteligenciaEmocional {
+        font-size: 18px;
+      }
+      .segurancaDaInformacao {
+        font-size: 18px;
+      }
+      .lgpd {
+        font-size: 18px;
+      }
+      .gdpr {
+        font-size: 18px;
+      }
+      .iso27001 {
+        font-size: 18px;
+      }
+      .html {
+        font-size: 18px;
+      }
+      .css {
+        font-size: 18px;
+      }
+      .javascript {
+        font-size: 18px;
+      }
+      .python {
+        font-size: 18px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Victor Matheus Almeida Leichsenring</h1>
-    <h2>Advogado | Estudante de Desenvolvimento Web</h2>
-    <nav>
+    <p class="saudacao">Olá, sou o</p>
+    <h1 class="nome">Victor Matheus Almeida Leichsenring</h1>
+    <h2 class="subtitulo">Advogado | Estudante de Desenvolvimento Web</h2>
+    <nav class="indice">
         <ul>
           <li><a href="#foto">Foto</a></li>
           <li><a href="#sobre">Sobre Mim</a></li>
           <li><a href="#habilidades">Habilidades</a></li>
         </ul>
       </nav>
-    <img id="foto" src="foto.jpeg" alt="foto com enquadramento americano, de oculos e camiseta preta, com o corpo inclinado em direção a câmera" height="600" />
-    <h2 id="sobre">&#9878;&#128421;Me encontro entre cláusulas e classes. Quem sou eu?</h2>
+    <br><br><br><br><br><br>
+    <img id="foto" src="foto.jpeg" alt="foto com enquadramento americano, de oculos e camiseta preta, com o corpo inclinado em direção a câmera" height="500" />
+    <br><br><br><br><br><br>
+    <h2 id="sobre" class="subtitulo">&#9878;&#128421;Me encontro entre cláusulas e classes. Quem sou eu?</h2>
     <p>&#128075;Olá! Eu sou Victor Leichsenring, um advogado especializado em Direito Digital apaixonado em tecnologia. Meu objetivo é combinar minha experiência jurídica com a ciência da computação.</p>
     <p>&#127891;&#127963;Como advogado, já trabalhei com uma variedade de situações jurídicas, incluindo privacidade de dados, investigação digital, direitos autorais e contratos de software. Minha experiência me deu uma compreensão aprofundada da interseção entre direito e tecnologia.</p>
     <p>&#128421;&#128218;Além do meu trabalho, estou atualmente aprimorando minhas habilidades em programação. Estou em um curso intensivo de programação com o objetivo de aprimorar conhecimentos em desenvolvimento web.</p>
     <p>&#128299;&#127966;Quando não estou trabalhando ou codificando, você pode me encontrar no campo de Airsoft. Sou um entusiasta desse esporte, quando quiser jogar é so me avisar.</p>
     <p>&#128106;&#128021;Fora do tribunal e do terminal, divido minha vida com um trio: meu filho, que vê o mundo como um enorme playground; uma filhote de Pastor Belga Malinois, <em>possivelmente o cão mais entusiasmado do mundo</em>; e minha maravilhosa mulher, que admiro tanto que não posso deixar de chamar de "deusa".</p>
     <p>&#129309;Estou sempre aberto a colaborar em projetos que envolvem Direito Digital e Tecnologia. Sinta-se à vontade para entrar em contato se você tiver um projeto que poderia usar minha experiência.</p>
-    <p> <strong>Ponta Grossa-PR | Brasil </strong> </p>
-    
-    <h2 id="habilidades">Habilidades</h2>
-    <p>Estas são as habilidades que você possui:</p>
-    <ul>
-      <li><strong>Proteção de Dados</strong></li>
-      <li>Negociação</li>
-      <li>Gestão de Conflitos</li>
-      <li>Inteligência Emocional</li>
-      <li>Segurança da Informação</li>
-      <li>LGPD</li>
-      <li>GDPR</li>
-      <li>ISO 27001</li>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>Javascript</li>
-      <li>Python</li>
+    <br>
+    <p class="localidade"> <strong>Ponta Grossa-PR | Brasil </strong> </p>
+    <br><br><br><br><br><br>
+    <h2 id="habilidades" class="subtitulo">Habilidades</h2>
+    <ul class="habilidades">
+      <li class="protecaoDeDados">Proteção de Dados</li>
+      <li class="negociacao">Negociação</li>
+      <li class="gestaoDeConflitos">Gestão de Conflitos</li>
+      <li class="inteligenciaEmocional">Inteligência Emocional</li>
+      <li class="segurancaDaInformacao">Segurança da Informação</li>
+      <li class="lgpd">LGPD</li>
+      <li class="gdpr">GDPR</li>
+      <li class="iso27001">ISO 27001</li>
+      <li class="html">HTML</li>
+      <li class="css">CSS</li>
+      <li class="javascript">Javascript</li>
+      <li class="python">Python</li>
     </ul>
+    <br>
     <p>Confira este blog que eu gosto: <a href="https://blog.betrybe.com/" target="_blank">Trybe</a></p>
   </body>
 </html>
